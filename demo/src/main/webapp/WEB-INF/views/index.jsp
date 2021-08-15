@@ -8,46 +8,96 @@
 <title>DEV-LJK</title>
 </head>
 <style>
+
+/* header */
+header{
+	margin: 10px 0;
+}
 .head_div{
-	margin: 1em 1em 1em 3em;
-	display: inline-block;
-	float: left;
+	display: flex;
+	align-items: center;
+	margin: 0 15%;
 }
-nav{
-	float: left;
-}
-.head_h1{
-	display: inline-block;
-	float: left;
-}
-.nav_ul li{
-	margin-top: 13px;
+
+ul {
 	list-style-type: none;
-	float:left;
-	margin-left: 1em;
+	display: flex;
 }
-a:link{
+
+li{
+	padding: 15px 32px 0 0;
+}
+
+a:link {
 	text-decoration: none;
 }
+
+a:hover {
+	color: black;
+}
+
 a:visited { 
 	color: black; 
 	text-decoration: none;
 }
-a:hover { 
-	color: blue; 
-}
-header {
-	float: left;
+
+/* section one */
+.sectionOne{
+	background: #eff9ff;
 	width: 100%;
+	height: 400px;
+	padding-top: 80px;
 }
-section{
-	border-top: 1px solid gray;
-	clear: both;
+
+.section_div {
+	margin: 0 15%;
+}
+
+#text_hello{
+	font-size: 40px;
+	color: #1272e9;
+}
+
+#devImg {
+	width: 500px;
+  	height: 300px;
+  	object-fit: cover;
+	position: absolute;
+	top: 70px;
+	right: 250px;
+}
+
+/* stack */
+.section_div > h2{
+	text-align: center;
+	color: #1272e9;
+	padding-bottom: 10px;
+}
+
+.stack > .section_div > p{
+	text-align: center;
+}
+
+.stack > .section_div{
+	padding: 80px;
+}
+
+.stack_ul img{
+	width: 100px;
+  	height: 100px;
+  	object-fit: cover;
+}
+.stack_ul{
+	justify-content: space-between;
+}
+.stack_ul li{
+	text-align: center;
 }
 
 
 </style>
-<link href="<c:url value="/resources/css/bootstrap/bootstrap.min.css"/>" rel="stylesheet">
+<link href="<c:url value="/resources/css/bootstrap/bootstrap.min.css"/>" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
 <body>
 <header>
 	<div class="head_div">
@@ -62,13 +112,61 @@ section{
 		</nav>
 	</div>
 </header>
+
 <section>
-	<div>
-		<h1>as</h1>
+	<div class="sectionOne">
+		<div class="section_div">
+			<p id="text_hello">안녕하세요</p>
+			<div>
+				<p id="text_ani">미래를 만들어가는 개발자 이준경 입니다.<p>
+			</div>
+		</div>
+		<img id="devImg" src="<c:url value="/resources/img/dev2.png"/>"/>
 	</div>
 </section>
+
+<section class="stack">
+	<div class="section_div">
+		<h2>Skills</h2>
+		<p>파트별 기술 스택</p>
+		<ul class="stack_ul">
+			<li>
+				<img src="<c:url value="/resources/img/Front.png"/>"/>
+				<p>Frontend</p>
+				<span>HTML·CSS·JQuery</span>
+				<br>
+				<span>JS</span>
+			</li>
+			<li>
+				<img src="<c:url value="/resources/img/Back.png"/>"/>
+				<p>Backend</p>
+				<span>SpringBoot·OracleDB·MySQL</span>
+				<br>
+				<span>JSP·JAVA</span>
+				</li>
+			<li>
+				<img src="<c:url value="/resources/img/Devops.png"/>"/>
+				<p>Devops</p>
+				<span>AWS·OracleCloud</span>
+				<br>
+				<span>GitHub</span>
+				
+			</li>
+		</ul>
+	</div>
+</section>
+
+<section>
+	<div class="section_div">
+		<h2>Project</h2>
+		<p>파트별 기술 스택</p>
+		
+	</div>
+</section>
+
 <footer>
 
 </footer>
+
 </body>
 </html>
