@@ -10,4 +10,12 @@ public class DemoController {
 	public void index() {
 		
 	}
+	@RequestMapping("/project")
+	public void project() {
+		
+	}
+	@RequestMapping("/about")
+	public void about() {
+		
+	}
 }
