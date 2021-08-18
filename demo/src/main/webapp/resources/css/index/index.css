@@ -222,9 +222,13 @@ footer{
 	}
 	
 	.sectionOne{
-		height: 280px;
-		padding-top: 60px;
+		height: 20vh;
+		padding-top: 6vh;
+		color: #003f90;
 		
+	}
+	#text_hello{
+		display: none;
 	}
 	
 }

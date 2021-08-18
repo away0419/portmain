@@ -29,6 +29,14 @@ section{
 .key_div img,div{
 	display: inline-block;
 }
+.key_div img{
+	max-width: 20vw;
+}
+@media (max-width:1100px) {
+	.key_div img{
+		max-width: 95vw;
+	}
+}
 </style>
 <body>
 <%@ include file="header.jsp" %>
