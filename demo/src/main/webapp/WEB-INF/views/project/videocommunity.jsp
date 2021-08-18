@@ -27,7 +27,7 @@
 			<h3>동영상 공유 커뮤니티</h3>
 			<p>개발 인원 3명(팀장)</p>
 			<p>2021.06 (4주)</p>
-			
+			<a href="<c:url value="https://github.com/kwanmyeong-lee/LYL.ws"/>">깃허브</a>
 		</div>
 		<div class="main_img">
 			<img src="<c:url value="/resources/img/LYL/Main.png"/>"/>

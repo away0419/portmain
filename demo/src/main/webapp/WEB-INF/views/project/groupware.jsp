@@ -29,6 +29,9 @@
 			<p>2021.07 ~ 2021.08 (7주)</p>
 			
 			<a href="<c:url value="http://ljkpro.tk/lylj"/>">http://ljkpro.tk/lylj </a><span>(데모 ID: 103 PW: a123123123)</span>
+			<br>
+			<a href="<c:url value="https://github.com/kwanmyeong-lee/project"/>">깃허브</a>
+			
 		</div>
 		<div class="main_img">
 			<img src="<c:url value="/resources/img/LYLJ/Login.png"/>"/>

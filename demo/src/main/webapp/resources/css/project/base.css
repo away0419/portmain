@@ -5,6 +5,9 @@ section{
 .title, .content{
 	margin-top: 60px;
 }
+.title a{
+	color:#2872e9;
+}
 .main_img{
 	text-align: center;
 }

@@ -27,6 +27,7 @@
 			<h3>은행 업무 프로그램</h3>
 			<p>개발 인원 1명</p>
 			<p>2021.05 (2주)</p>
+			<a href="<c:url value="https://github.com/away0419/semi-project"/>">깃허브</a>
 		</div>
 		<div class="main_img">
 			<img src="<c:url value="/resources/img/Bank/Main.png"/>"/>

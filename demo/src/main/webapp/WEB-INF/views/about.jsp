@@ -30,7 +30,7 @@ section{
 	display: inline-block;
 }
 .key_div img{
-	max-width: 20vw;
+	max-width: 400px;
 }
 @media (max-width:1100px) {
 	.key_div img{
